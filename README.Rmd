@@ -1,0 +1,47 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+
+
+# Project Nourish Data Analysis
+
+This repository contains the project folder structure and dofiles for data processing and analysis as part of the Project Nourish 2nd Wave data collection. The repository hosts the dofiles related to the various data sources, including the household survey, village survey, and project monitoring and evaluation (M&E) data.
+
+## Folder Structure
+
+The project is organized into three main folders:
+
+1. **01_HH_Survey**: This folder contains the dofiles related to the household survey data. It includes sub-folders for each main data task:
+
+   - `01_Import`: Importing the raw data and converting it into the desired format.
+   - `02_HFC`: Performing high-frequency tasks on the data.
+   - `03_Cleaning`: Data cleaning, performed by individual module-specific dofiles.
+   - `04_Construct`: Constructing indicators for reporting, done by individual module-specific dofiles.
+   - `05_Analysis`: Analysis dofiles for generating summary statistics, performing inferential analysis, and generating plots.
+
+2. **02_Village_Survey**: This folder contains the dofiles specific to the village survey data. Similar to the `01_HH_Survey` folder, it includes sub-folders for each data task.
+
+3. **03_M&E**: This folder is dedicated to the project's monitoring and evaluation (M&E) data. The M&E folder follows a different workflow compared to the survey data. 
+
+
+## Usage
+
+This repository is designed to facilitate the data analysis process for Project Nourish. You can explore the folders and sub-folders to access the relevant dofiles for each data source. The dofiles are structured according to the data processing and analysis workflow outlined above.
+
+Feel free to use the provided resources to conduct your data analysis, generate reports, and perform statistical analyses. If you have any questions or require assistance, please reach out for support.
+
+Happy analyzing!
+
+

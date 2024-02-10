@@ -58,6 +58,6 @@ Modified by			:
 
 	// Sample villages with probability proportional to size
 	
-	gsample 10 [w = total], strata(zone)
+	gsample 20 [w = total], strata(zone)
 	
 	* end of dofile 
